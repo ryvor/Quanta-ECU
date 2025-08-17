@@ -1,16 +1,25 @@
-MIT License
+MIT License with Additional Restrictions
 
 Copyright (c) 2025 Robert Smith
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+of this software and associated documentation files (the "Software"), to:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- View, use, and modify the Software for educational, research, or contribution
+  purposes.
+- Create derivative works for the sole purpose of testing, experimentation, or
+  submitting improvements, bug reports, or feature requests back to this project.
+- Share copies of the Software for non-commercial, non-production use.
+
+The following restrictions apply:
+
+1. The Software may not be used, in whole or in part, for personal projects,
+   commercial projects, or resale without the express written permission of
+   the copyright holder.
+2. The Software may not be integrated into any product, service, or system
+   intended for distribution, deployment, or sale without prior authorization.
+3. All copies or substantial portions of the Software must include this
+   copyright notice and license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
