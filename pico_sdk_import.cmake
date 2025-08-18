@@ -1,0 +1,11 @@
+# This is a copy of the minimal pico_sdk_import.cmake
+define_property(GLOBAL PROPERTY PICO_SDK_PATH)
+if (NOT PICO_SDK_PATH)
+    if (DEFINED ENV{PICO_SDK_PATH})
+        set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
+    else()
+        message(FATAL_ERROR "PICO_SDK_PATH not set")
+    endif()
+endif()
+set(PICO_SDK_PATH ${PICO_SDK_PATH} CACHE PATH "Path to the Pico SDK")
+include(${PICO_SDK_PATH}/pico_sdk_init.cmake)
