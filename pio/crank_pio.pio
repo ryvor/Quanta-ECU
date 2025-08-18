@@ -1,0 +1,6 @@
+.program crank_capture
+loop:
+    wait 1 pin 0
+    irq 0
+    wait 0 pin 0
+    jmp loop
